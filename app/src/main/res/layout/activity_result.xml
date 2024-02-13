@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A9F3A7"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#123456"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textFontWeight="3000"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Ваш результат: "
+        android:textColor="#123456"/>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="Начать заново"/>
+
+</LinearLayout>

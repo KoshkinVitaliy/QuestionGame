@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuestionGame</string>
+    <string name="question_one">Сколько бит в КБайт?</string>
+    <string name="question_two">Сколько минут в сутках?</string>
+    <string name="question_three">Сколько нулей в миллиарде?</string>
+    <string name="question_four">Сколько грамм в тонне?</string>
+    <string name="question_five">Сколько миллиметров в метре?</string>
+    <string name="answer_one">10</string>
+    <string name="answer_two">100</string>
+    <string name="answer_three">1000</string>
+    <string name="answer_four">10000</string>
+</resources>

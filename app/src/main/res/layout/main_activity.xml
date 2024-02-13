@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#A9F3A7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#123456"
+        android:textSize="36sp"
+        android:textFontWeight="3000"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/game"/>
+
+    <TextView
+        android:id="@+id/question_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#123456"
+        android:textSize="24sp"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:id="@+id/first_answer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/second_answer_btn"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="#123456"/>
+    <Button
+        android:id="@+id/third_answer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="#123456"/>
+    <Button
+        android:id="@+id/fourth_answer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="#123456"/>
+
+
+</LinearLayout>
